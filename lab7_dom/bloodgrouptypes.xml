@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?DOCTYPE note
+[
+<!ELEMENT note (Blood_Type,Donate_Blood_To,Recieve_Blood_From)>
+<!ELEMENT Blood_Type(#PCDATA)>
+<!ELEMENT Donate_Blood_To (#PCDATA)>
+<!ELEMENT Recieve_Blood_From (#PCDATA)>
+
+]?>
+<?xml-stylesheet type="text/xsl" href="guidelines.xsl" ?>
+<bloodgroup>
+<details>
+<Blood_Type> A+</Blood_Type>
+<Donate_Blood_To>A+,AB+</Donate_Blood_To>
+<Recieve_Blood_From>A+,A-,0+,O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> O+ </Blood_Type>
+  <Donate_Blood_To>O+,A+,B+,AB+</Donate_Blood_To>
+  <Recieve_Blood_From>O+,O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> B+ </Blood_Type>
+  <Donate_Blood_To>B+,AB+</Donate_Blood_To>
+  <Recieve_Blood_From>B+,B-,O+,O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> AB+ </Blood_Type>
+  <Donate_Blood_To>AB+</Donate_Blood_To>
+  <Recieve_Blood_From>Everyone</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> A- </Blood_Type>
+  <Donate_Blood_To>A+,A-,AB+,AB-</Donate_Blood_To>
+  <Recieve_Blood_From>A-,O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> O-</Blood_Type>
+  <Donate_Blood_To>Everyone</Donate_Blood_To>
+  <Recieve_Blood_From>O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> B-</Blood_Type>
+  <Donate_Blood_To>B+,B-,AB+,AB-</Donate_Blood_To>
+  <Recieve_Blood_From>B-,O-</Recieve_Blood_From>
+</details>
+<details>
+  <Blood_Type> AB- </Blood_Type>
+  <Donate_Blood_To>AB+,AB-</Donate_Blood_To>
+  <Recieve_Blood_From>AB-,A-,B-,O-</Recieve_Blood_From>
+</details>
+
+</bloodgroup>
